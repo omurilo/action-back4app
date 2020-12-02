@@ -1,5 +1,7 @@
 name: 'Deploy B4App'
-description: 'Deploy to B4App'
+description: 'Deploy to B4App',
+icon: 'upload-cloud',
+color: 'green',
 inputs:
   project:  # id of input
     description: 'project name of b4app deploy'
