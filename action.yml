@@ -1,10 +1,13 @@
 name: 'Deploy B4App'
 description: 'Deploy to B4App'
+author: "Murilo Henrique"
+branding:
+  icon: 'upload-cloud'  
+  color: 'green'
 inputs:
   project:  # id of input
     description: 'project name of b4app deploy'
     required: true
-    default: ''
   accountKey:
     description: 'AccountKey of B4App account'
     required: true

@@ -44,7 +44,7 @@ if {$force_conservative} {
 set accountkey [lindex $argv 0];
 
 set timeout -1
-spawn ./configure.sh
+spawn /app/configure.sh
 match_max 100000
 expect -exact "\r
 Input your account key or press ENTER to generate a new one.\r
