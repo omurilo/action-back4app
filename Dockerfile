@@ -1,7 +1,7 @@
 FROM node:alpine
 USER root
 
-RUN apk add curl bash expect python
+RUN apk add curl bash expect python2
 
 SHELL ["/bin/bash", "-c"]
 
