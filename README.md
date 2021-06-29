@@ -13,7 +13,7 @@ An github action to deploy projects on back4app
 
 ## Example usage
 ```yml
-uses: omurilo/action-back4app@v1
+uses: omurilo/action-back4app@v3
 with:
   project: 'your-project-name'
   accountKey: 'your-account-key'
