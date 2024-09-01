@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM alpine:3.11
 USER root
 
 RUN apk add curl bash expect python2
